@@ -1,31 +1,3 @@
- all Linux systems).
-* **Utilities:** `grep`, `awk`, `sort`, `uniq`, `file` (Standard core utilities).
-* **Permissions:** The user running the script needs **Read** permissions for the log files (usually `/var/log` requires `sudo` or root) and **Write** permissions for the report output directory.
-
-## Setup
-
-1. **Create a directory** for your scripts:
-```bash
-mkdir -p ~/scripts/log-analyzer
-cd ~/scripts/log-analyzer
-
-```
-
-
-2. **Save the files:**
-* Save the main script logic as `log_analyzer.sh`.
-* Save the configuration variables as `log_analyzer.conf`.
-
-
-3. **Make the script executable:**
-```bash
-chmod +x log_analyzer.sh
-
-```
-
-
-4. **Verify the directory structure:**
-Ensure both files are in the same folder. The script is designed to automatically locate the
 # Log File Analyzer
 
 ## What This Does
