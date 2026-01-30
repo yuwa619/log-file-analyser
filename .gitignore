@@ -1,0 +1,4 @@
+reports/
+*.log
+error_report_*.txt
+.DS_Store
